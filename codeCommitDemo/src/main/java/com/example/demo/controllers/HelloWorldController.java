@@ -9,6 +9,6 @@ public class HelloWorldController {
 
 	@GetMapping("/hello/{name}")
 	public String sayHello(@PathVariable String name) {
-		return "Hi from CodeCommitDemo - v1 " + name;
+		return "Hi from CodeCommitDemo - v2 " + name;
 	}
 }
